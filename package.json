@@ -1,0 +1,22 @@
+{
+  "name": "hollan-io-functions",
+  "version": "1.0.0",
+  "description": "Azure Functions to power hollan.io",
+  "main": "GetMediumPosts/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeffhollan/hollan-io-functions.git"
+  },
+  "keywords": [
+    "serverless"
+  ],
+  "author": "Jeff Hollan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffhollan/hollan-io-functions/issues"
+  },
+  "homepage": "https://github.com/jeffhollan/hollan-io-functions#readme"
+}
