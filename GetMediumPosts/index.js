@@ -59,6 +59,10 @@ function ParseMedium(data) {
             subtitle: data.payload.references.Post[postId].content.subtitle,
             blogUrl: "https://medium.com/@jeffhollan/" + data.payload.references.Post[postId].uniqueSlug
         })
+
+        if(response.posts.length >= 4) {
+            break;
+        }
     }
     return response;
 }
