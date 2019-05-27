@@ -14,7 +14,7 @@ const httpTrigger: AzureFunction = async function (context: Context, req: HttpRe
     
     context.res = {
         statusCode: 200,
-        body: posts.slice(0, 4)
+        body: { posts: posts.slice(0, 4) }
     };
 };
 
