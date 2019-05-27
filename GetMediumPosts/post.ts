@@ -1,4 +1,4 @@
-class Post {
+export class Post {
     constructor(title: string, imageUrl: string, subtitle: string, blogUrl: string, publishedAt: Date) {
         this.title = title;
         this.imageUrl = imageUrl;
